@@ -10,7 +10,7 @@ def p2(data):
 
 
 def main():
-    data = get_data(day=1, year=2022).splitlines()
+    data = get_data(day=7, year=2022).splitlines()
 
     print(data, type(data))
     print(f"p1: {p1(data)}")
